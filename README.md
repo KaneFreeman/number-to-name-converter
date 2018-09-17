@@ -5,3 +5,9 @@ I was using this project to test out parallel streams and their performance on a
 
 ## Example
 `14,345,001` -> `fourteen million, three hundred and fourty five thousand, one`
+
+## Building
+Run `./mvnw clean install`.
+
+## Running
+Run `java -jar target/number-to-name-converter-0.0.1.jar
