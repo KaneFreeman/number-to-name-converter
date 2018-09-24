@@ -111,7 +111,7 @@ public class Application {
         int segments;
         int segmentLength;
         try {
-            // Number if four digits long and the first two digits (from left) are not multiples of 10
+            // If number is four digits long and the first two digits (from left) are not multiples of 10
             if (length == 4 && Integer.valueOf(number.substring(0, 2)) % 10 != 0) {
                 segments = 1;
                 segmentLength = 4;

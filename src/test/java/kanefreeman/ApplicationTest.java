@@ -83,7 +83,7 @@ public class ApplicationTest {
 
     @Test
     /**
-     * For the output to sound more natural speak, numbers between 1000 and 9999 should be written with the following rules:
+     * For the output to sound more natural, numbers between 1000 and 9999 should be written with the following rules:
      *
      * 1. If the first two digits are a multiple of 10, use thousand syntax
      * 2. If the first two digits are NOT a multiple of 10, write as hundreds
